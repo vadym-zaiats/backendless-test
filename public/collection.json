@@ -1,0 +1,20 @@
+[
+  {
+    "id": "table",
+    "title": "Table",
+    "order": 1,
+    "path": "./pages/Table/Table"
+  },
+  {
+    "id": "chart",
+    "title": "Chart",
+    "order": 2,
+    "path": "./pages/Chart/Chart"
+  },
+  {
+    "id": "list",
+    "title": "List",
+    "order": 0,
+    "path": "./pages/List/List"
+  }
+]

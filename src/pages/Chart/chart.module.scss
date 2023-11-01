@@ -1,0 +1,38 @@
+.chart {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.bar__label {
+  width: 100px;
+}
+
+.bar__value {
+  background-color: #0073e6;
+  height: 20px;
+  border-radius: 5px;
+  &--toyota {
+    width: 30.99%;
+  }
+  &--renault {
+    width: 20.9%;
+  }
+  &--bmw {
+    width: 16.9%;
+  }
+  &--vw {
+    width: 16%;
+  }
+  &--skoda {
+    width: 15%;
+  }
+}
